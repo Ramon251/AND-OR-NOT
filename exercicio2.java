@@ -15,10 +15,10 @@ public class exercicio2 {
 		System.out.println("categoria infantil");
 		
 		if(idade >= 11 && idade <= 17);
-		System.out.println("categoria juvenil");
+		System.out.println("categoria juvenil")
 		
 		if( idade >=  18);
-		System.out.println("categoria adulto");
+		System.out.println("categoria adulto")
 		
 		
 		
