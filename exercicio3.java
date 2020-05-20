@@ -7,17 +7,17 @@ public class exercicio3 {
 		Scanner leitor = new Scanner(System.in);
      int salario;
      
-     System.out.println("Qual o seu sal·rio?");
+     System.out.println("Qual o seu sal√°rio?");
      salario = leitor.nextInt();
      
      if( salario >= 0 && salario <= 1000)
-    	 System.out.println("Recebeu aumento de 15% "+ salario+(salario/100*15));
+    	 System.out.println("Recebeu aumento de 15% "+ (salario+(salario/100*15)));
      
-     if( salario >= 1000 && salario <= 2500)
-    	 System.out.println("Recebeu aumento de 7% "+ salario+(salario/100*7));
+     if( salario > 1000 && salario <= 2500)
+    	 System.out.println("Recebeu aumento de 7% "+ (salario+(salario/100*7)));
      
-     if( salario >= 2500)
-    	 System.out.println("n„o haver· aumento "+ salario);
+     if( salario > 2500)
+    	 System.out.println("n√£o haver√° aumento "+ salario);
      
 	}
 
